@@ -1,0 +1,41 @@
+body {
+    background-color: #AAA;
+}
+
+nav {
+    background-color: black;
+    clear: both;
+    color: white;
+    display: block;
+    font-weight: bold;
+    padding: 0 10%;    
+    text-align: center;
+}
+
+nav > ul > li > a {
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+
+nav  > ul > li > a:hover {
+    background-color: white;
+    color: black;
+}
+nav > ul {
+    margin: auto;
+}
+
+nav > ul > li {
+    display: inline-block;
+    width: 33%;
+}
+
+nav > ul > li > ul {
+    display: none;
+}
+
+li:hover ul {
+    position: absolute;
+    display: block;
+}
